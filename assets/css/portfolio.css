@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #040005;
+    --secondary-color: rgb(51, 59, 59); 
+    --anchor-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--anchor-color);
+    margin: 0;
+}
+
+header a {
+    color: var(--anchor-color);
+}
+
+header nav {
+    margin: 10px
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
+
+/* hero */
+
+.hero {
+    background-image: url("../images/brick-background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    position: relative;
+}
+
+.hero h2 {
+    font-size: 42px;
+    margin: 0;
+    color: white;
+    display: flex;
+    background-color: grey;
+    padding: 4px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 50px;
+    right: 35px;
+}
+
+section {
+    padding: 80px;
+}
+
+/* my work section start */
+
+.box-row{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.box-row > * {
+    border: 1px solid #000000;
+    flex: 1 1 33%;
+    height: 250px;
+}
+
+.box1 {
+    height: 250px;
+    background-image: url(../images/calculator.jpg);
+
+}
+
+.box2 {
+    height: 250px;
+    background-image: url(../images/led-wall.jpg);
+
+}
+
+.box3 {
+    height: 250px;
+    background-image: url(../images/surf2.jpg);
+    background-position: 60% 65%;
+}
+
+.box4 {
+    height: 250px;
+    background-image: url(../images/hero-bg-portfolio.jpg);
+    background-size: cover;
+}
+
+.box5 {
+    background-image: url(../images/pastel.jpg);
+    height: 250px;
+}
+
+div {
+    border: 1px #ccc solid;
+    padding: 0px;  
+}
+
+h2 {
+    padding: 10px;
+}
+
+h3 {
+    display: inline;
+    color: var(--anchor-color);
+    border: 2px solid #000000;
+    background-color:rgb(51, 59, 59, .5);
+}
