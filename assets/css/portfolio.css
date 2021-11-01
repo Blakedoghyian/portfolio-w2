@@ -44,8 +44,15 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
-  }
+}
 
+
+header nav ul li a:hover {
+    background: #38fccb;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
+}
 /* hero */
 
 .hero {
@@ -85,10 +92,11 @@ section {
 .box-row{
     display: flex;
     flex-wrap: wrap-reverse;
+    justify-content: space-around;
 }
 
 .box-row > * {
-    border: 1px solid #000000;
+
     flex: 1 1 33%;
     height: 250px;
 }
@@ -144,6 +152,7 @@ body {
     background-color: slategrey;
 }
 
+/* about me section start */
 .about-me {
     border: 2px solid #000000;
 }
@@ -152,12 +161,7 @@ body {
     border-radius: 100px;
 }
 
-header nav ul li a:hover {
-    background: #38fccb;
-    color: #024e76;
-    border-radius: 15px;
-    text-shadow: none;
-}
+/* about me section end */
 
 /* start footer section */
 
